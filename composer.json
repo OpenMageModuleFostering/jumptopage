@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/jumptopage",
+    "type": "magento-module",
+    "license": "OSL-v3.0",
+    "homepage": "",
+    "description": "Jump to a specific page Community Module",
+    "authors": [
+    {
+        "name": "StrApp",
+        "email": "strappvivek@gmail.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

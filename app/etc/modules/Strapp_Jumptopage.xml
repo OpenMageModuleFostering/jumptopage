@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!-- 
+/**
+ * @category	Strapp
+ * @package	Strapp_Jumptopage
+ * @author	Strapp
+ */
+ -->
+<config>
+    <modules>
+        <Strapp_Jumptopage>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Strapp_Jumptopage>
+    </modules>
+</config>

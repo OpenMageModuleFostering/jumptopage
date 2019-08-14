@@ -1,0 +1,42 @@
+<?php
+/**
+* Strapp Gotopage Module
+*
+* @category    design
+* @package     base_default
+**/
+?>
+
+<style type="text/css">
+  #advice-required-entry-pagenumbertop,#advice-required-entry-pagenumberbottom,#advice-validate-digits-range-pagenumbertop,#advice-validate-digits-range-pagenumberbottom
+  {
+    display:inline;
+    padding-left: 10px;
+  }
+</style>
+
+<script type="text/javascript">
+jQuery("#topForm button").click(
+function()
+{  
+  var pageNumberFormtop = new VarienForm('topForm',false);
+  if(pageNumberFormtop.validator &&  pageNumberFormtop.validator.validate())
+  {
+    jQuery('#topForm').attr("action",pageUrl+document.getElementById('pagenumbertop').value);
+    jQuery("#topForm").submit();
+  }
+}
+);
+
+jQuery("#bottomForm button").click(
+function()
+{  
+  var pageNumberFormBottom = new VarienForm('bottomForm',false);
+  if(pageNumberFormBottom.validator &&  pageNumberFormBottom.validator.validate())
+  {
+    jQuery('#bottomForm').attr("action",pageUrl+document.getElementById('pagenumberbottom').value);
+    jQuery("#bottomForm").submit();
+  }
+}
+);
+</script>

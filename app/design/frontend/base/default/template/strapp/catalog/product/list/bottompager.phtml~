@@ -1,0 +1,3 @@
+
+
+<?php echo $this->getPagerBlock()->setTemplate('strapp/catalog/product/list/sample.phtml')->toHtml();?>

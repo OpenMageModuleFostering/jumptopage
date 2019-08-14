@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<!--
+/**
+* Strapp Jumptopage Module
+*
+* @category    Strapp
+* @package     Strapp_Jumptopage
+**/
+ -->
+<config>
+  <modules>
+    <Strapp_Jumptopage>
+      <version>1.0.0</version>
+    </Strapp_Jumptopage>
+  </modules>
+  <frontend>        
+    <routers>
+      <jumptopage>
+	<use>standard</use>
+        <args>
+	  <module>Strapp_Jumptopage</module>
+          <frontName>jumptopage</frontName>
+        </args>
+      </jumptopage>
+    </routers>	
+    <layout>
+      <updates>
+        <strapp_jumptopage module="strapp_jumptopage">
+          <file>strapp_jumptopage.xml</file>
+        </strapp_jumptopage>
+      </updates>
+    </layout>
+  </frontend>
+  <global>
+    <models>
+      <strapp_jumptopage>
+        <class>Strapp_Jumptopage_Model</class>
+      </strapp_jumptopage>
+    </models>
+    <blocks>
+      <strapp_jumptopage>
+	<class>Strapp_Jumptopage_Block</class>
+      </strapp_jumptopage>	    
+    </blocks>
+    <helpers>
+      <strapp_jumptopage>
+	<class>Strapp_Jumptopage_Helper</class>
+      </strapp_jumptopage>
+    </helpers>	
+  </global>
+  <default>
+    <jumptopageconfig>
+      <jumptopage>
+        <enable>0</enable>
+	<includejquery>0</includejquery>
+      </jumptopage>      
+    </jumptopageconfig>
+  </default>
+</config>

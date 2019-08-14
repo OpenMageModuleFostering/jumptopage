@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<!--
+/**
+* Strapp Jumptopage Module
+*
+* @category    design
+* @package     base_default
+**/
+ -->
+<layout version="0.1.0">
+  <default>
+    <reference name="before_body_end">
+      <block type="core/template" template="strapp/scripts.phtml"/>
+    </reference>
+  </default>  
+  <tag_product_list>
+    <action method="setTemplate" block="product_list_toolbar_pager" ifconfig="jumptopageconfig/jumptopage/enable">
+      <template>strapp/catalog/product/list/pager.phtml</template>
+    </action>
+  </tag_product_list>
+  <catalog_category_layered>
+    <action method="setTemplate" block="product_list_toolbar_pager" ifconfig="jumptopageconfig/jumptopage/enable">
+      <template>strapp/catalog/product/list/pager.phtml</template>
+    </action>
+  </catalog_category_layered>
+  <catalog_category_default>
+    <action method="setTemplate" block="product_list_toolbar_pager" ifconfig="jumptopageconfig/jumptopage/enable">
+      <template>strapp/catalog/product/list/pager.phtml</template>
+    </action>
+  </catalog_category_default>
+  <catalogsearch_result_index>
+    <action method="setTemplate" block="product_list_toolbar_pager" ifconfig="jumptopageconfig/jumptopage/enable">
+      <template>strapp/catalog/product/list/pager.phtml</template>
+    </action>
+  </catalogsearch_result_index> 
+  <catalogsearch_advanced_result>
+    <action method="setTemplate" block="product_list_toolbar_pager" ifconfig="jumptopageconfig/jumptopage/enable">
+      <template>strapp/catalog/product/list/pager.phtml</template>
+    </action>
+  </catalogsearch_advanced_result>  
+</layout>

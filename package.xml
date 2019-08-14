@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>jumptopage</name>
+    <version>1.0.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Jump to a specific page Community Module</summary>
+    <description>Ecommerce sites witha large number of products in each category, the number of pages increases and if a customer wants to go to a specific page number &#x2013; they can't. This extension allows for customers to enter a specific page number and the customer is redirected to that page directly</description>
+    <notes>Jump to a specific page Community Module</notes>
+    <authors><author><name>StrApp</name><user>strviv</user><email>strappvivek@gmail.com</email></author></authors>
+    <date>2014-10-01</date>
+    <time>06:58:29</time>
+    <contents><target name="magelocal"><dir name="Strapp"><dir name="Jumptopage"><dir name="Helper"><file name="Data.php" hash="39ee0d2460fdad6989fd9cabebb55431"/><file name="Data.php~" hash="39ee0d2460fdad6989fd9cabebb55431"/></dir><dir name="etc"><file name="adminhtml.xml" hash="682b9cee9fe34002a8b6bd0c6c28752a"/><file name="adminhtml.xml~" hash="682b9cee9fe34002a8b6bd0c6c28752a"/><file name="config.xml" hash="2a521903883ded52897845e99e216c0c"/><file name="config.xml~" hash="2a521903883ded52897845e99e216c0c"/><file name="system.xml" hash="6f2ee1f4333321894c6dbed13843d85f"/><file name="system.xml~" hash="6f2ee1f4333321894c6dbed13843d85f"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="strapp_jumptopage.xml" hash="57cafc8b8ca0ea7f2a44afed3d4b9845"/></dir><dir name="template"><dir name="strapp"><dir name="catalog"><dir><dir name="product"><dir name="list"><file name="bottompager.phtml~" hash="73f78abe3cd62cb12ee967332c76c330"/><file name="pager.phtml" hash="ebce63e4908ddd171a558d9e28803ed8"/><file name="pager.phtml~" hash="ebce63e4908ddd171a558d9e28803ed8"/><file name="pagerbackup.phtml~" hash="ac0657d5267d42ebdac09ac084eccd31"/><file name="sample.phtml~" hash="64b9ffe1f24d1761c70ee10f95c79e7c"/><file name="toolbar.phtml~" hash="57aac74426a61cf6d7ec48d8e7adb58a"/></dir></dir></dir></dir><file name="scripts.phtml" hash="365a67fc79744bdb7275fd3f46f95fb5"/></dir></dir></dir></dir></dir></target><target name="mage"><dir name="js"><dir name="strapp"><file name="jquery-1.10.2.min.js" hash="628072e7212db1e8cdacb22b21752cda"/></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Strapp_Jumptopage.xml" hash="94414bb4fe3058b8774c69e6dad1f744"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
